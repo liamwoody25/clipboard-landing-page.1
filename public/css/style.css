@@ -257,6 +257,7 @@ body{
 }
 
 .snippet-content{
+ 
     width: 350px;
     text-align: center;
     padding-bottom: 14px;
@@ -306,4 +307,54 @@ body{
     font-weight: 400;
     line-height: 30px;
     letter-spacing: 0.12px;
+    padding-bottom: 162px;
+}
+
+/************  companies-section  ***************/
+.companies-content{
+    display: flex;
+   justify-content: space-between;
+   padding-bottom: 161px;
+}
+
+/************  apple-content  *************/
+
+.apple-content{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    text-align: center;
+    gap: 30px;
+}
+
+.apple-content h3{
+    color: var(--hd-color);
+    font-size: 36px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+    letter-spacing: -0.587px;
+}
+
+.apple-content p{
+    width: 730px;
+    color: var(--txt-color);
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 30px;
+    letter-spacing: 0.135px;
+}
+
+/***********  footer-container  **************/
+
+.bottom-content{
+    display: flex;
+    background-color:#9FABB2;
+    width: 1440px;
+}
+
+.bottom-logo{
+    width: 55px;
+    height: 55px;
 }
