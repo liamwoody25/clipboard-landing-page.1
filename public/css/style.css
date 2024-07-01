@@ -350,11 +350,16 @@ body{
 
 .bottom-content{
     display: flex;
+    align-items: center;
     background-color:#9FABB2;
     width: 1440px;
+    height: 150px;
+   
 }
 
 .bottom-logo{
+    padding-left:165px ;
     width: 55px;
     height: 55px;
+
 }
