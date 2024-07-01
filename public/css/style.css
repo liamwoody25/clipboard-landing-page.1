@@ -171,9 +171,12 @@ body{
 /********  clipboard-section  **********/
 
 .clipboard-content{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
     width: 730px;
-    text-align: center;
     padding-bottom: 150px;
+    text-align: center;
 }
 
 .clipboard-content h2{
@@ -206,6 +209,7 @@ body{
     padding-left: 15%;
     text-align: center;
     width: 730px;
+    
 }
 
 .supercharge-content h2{
@@ -220,6 +224,7 @@ body{
 .supercharge-content p{
     color: var(--txt-color);
     font-size: 18px;
+    padding-bottom: 76px;
 }
 /********  accessibility-section  *********/
 .accessibiltiy-section{
@@ -229,6 +234,7 @@ body{
 .blacklists-content{
     width: 350px;
     text-align: center;
+    padding-bottom: 14px;
 }
 
 .blacklists-content h3{
@@ -238,6 +244,7 @@ body{
     font-weight: 600;
     line-height: normal;
     letter-spacing: -0.391px;
+    padding-top: 39px;
 }
 
 .blacklists-content p{
@@ -252,6 +259,7 @@ body{
 .snippet-content{
     width: 350px;
     text-align: center;
+    padding-bottom: 14px;
 }
 
 .snippet-content h3{
@@ -261,6 +269,8 @@ body{
     font-weight: 600;
     line-height: normal;
     letter-spacing: -0.391px;
+    padding-top: 44px;
+   
 }
 
 .snippet-content p{
@@ -275,6 +285,7 @@ body{
 .preview-content{
     text-align: center;
     width: 350px;
+    padding-bottom: 14px;
    
 }
 
@@ -285,6 +296,7 @@ body{
     font-weight: 600;
     line-height: normal;
     letter-spacing: -0.391px;
+    padding-top: 44px;
 }
 
 .preview-content p{
