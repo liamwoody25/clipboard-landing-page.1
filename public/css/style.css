@@ -10,7 +10,7 @@
     overflow-x: hidden;
 }
 
-.container{
+.main-container{
     width: 76%;
     max-width: 1100px;
     margin-left: auto;
@@ -29,6 +29,8 @@ body{
 /***********  history-section  ************/
 
 .history-section{
+    display: flex;
+    flex-wrap: wrap;
     position:relative;
     top: -170px;
 }
@@ -206,8 +208,10 @@ body{
 /*********  supercharge-section  ***********/
 
 .supercharge-content{
+    display: flex;
+    flex-wrap: wrap;
     padding-left: 15%;
-    text-align: center;
+   justify-content: center;
     width: 730px;
     
 }
@@ -313,8 +317,9 @@ body{
 /************  companies-section  ***************/
 .companies-content{
     display: flex;
-   justify-content: space-between;
-   padding-bottom: 161px;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    padding-bottom: 161px;
 }
 
 /************  apple-content  *************/
@@ -349,12 +354,11 @@ body{
 /***********  footer-container  **************/
 
 .bottom-content{
+    background-color:#9FABB2;
     display: flex;
     align-items: center;
-    background-color:#9FABB2;
     width: 1440px;
     height: 150px;
-   
 }
 
 .bottom-logo{
@@ -362,4 +366,47 @@ body{
     width: 55px;
     height: 55px;
 
+}
+.info-container{
+    display: flex;
+   
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 30px;
+    letter-spacing: 0.135px;
+    color: #4C545C;
+}
+
+ li{
+    list-style: none;
+}
+
+a {
+    color: #4C545C;
+    text-decoration: none;
+}
+
+.icons{
+    display: flex;
+    flex-wrap: wrap;
+}
+
+/***********  media-query  *************/
+
+@media screen and (max-width: 481px) {
+    .main-container{
+        display: flex;
+        flex-wrap: wrap;
+    
+    }
+
+    .tasks-content{
+        display: flex;
+        flex-wrap: wrap;
+    }
+
+    .tasks-content img{
+       flex-wrap: wrap;
+    }
 }
