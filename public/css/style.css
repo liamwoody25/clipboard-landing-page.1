@@ -1,0 +1,476 @@
+/*******  utils  *********/
+
+:root {
+    --main-color:#26BAA4;
+    --btn-color:#6173FF;
+    --hd-color:#4C545D;
+}
+
+/***** fonts *****/
+
+* {
+    font-family: 'Bai Jamjuree',sans-serif;
+}
+
+
+h1 {
+    color: var(--hd-color);
+    text-align: center;
+    font-size: 2em;
+    font-weight: 600;
+    letter-spacing: -0.75px;
+}
+
+h2 {
+    color: var(--hd-color);
+    font-size: 2.25rem;
+    text-align: center;
+    font-weight: 600;
+    margin: 0;
+}
+
+h3 {
+    color: var(--hd-color);
+    font-size: 1.5rem;
+    font-weight: 600;
+    letter-spacing: -0.391px;
+}
+
+p {
+    color: #9EABB2;
+    font-weight: 400;
+    line-height: 30px;
+    margin-bottom: 46px;
+}
+
+
+/********* components  *******/
+
+.btns {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    gap: 24px;
+    justify-content: center;
+}
+
+.btn-1:hover{
+    opacity: 0.5;
+}
+.btn-2:hover {
+    opacity: 0.5;
+}
+
+.btn-1 {
+    width: 311px;
+    height: 56px;
+    border-radius: 28px;
+    box-shadow: 0px -3px 0px 0px rgba(0, 0, 0, 0.15) inset, 0px 10px 20px 0px rgba(137, 229, 199, 0.50);
+    background-color: var(--main-color);
+    color: #fff;
+    text-align: center;
+    font-size: 18px;
+    font-weight: 600;
+    line-height: 30px;
+    letter-spacing: 0.5px;
+    cursor: pointer;
+    align-items: center;
+    border: 0;
+}
+
+.btn-2 {
+    width: 311px;
+    height: 56px;
+    border-radius: 28px;
+    box-shadow: 0px -3px 0px 0px rgba(0, 0, 0, 0.15) inset, 0px 10px 20px 0px rgba(0, 0, 0, 0.10);
+    background-color: var(--btn-color);
+    color: #fff;
+    text-align: center;
+    font-size: 18px;
+    font-weight: 600;
+    line-height: 30px;
+    letter-spacing: 0.5px;
+    cursor: pointer;
+    border: 0;
+
+}
+
+/******* body  *******/
+
+body {
+    background-image: url('/public/assets/images/bg-header-desktop.png');
+    background-repeat: no-repeat;
+    margin: 0;
+}
+
+/******  header  *******/
+
+.header {
+    margin: 123px 32px 0px 32px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.header-body {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.header-body p {
+    text-align: center;
+    font-size: 16px;
+}
+
+.header-logo {
+    width: 125px;
+    height: 125px;
+    margin-bottom: 64px;
+}
+
+/*******  keep-track *******/
+
+.keep-track-wrapper {
+    margin: 160px 32px 0px 32px;
+    display: flex;
+}
+
+.track-body {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.track-body p {
+    text-align: center;
+}
+
+
+/******  computer-wrapper  ******/
+
+.computer-wrapper {
+    margin: 64px 32px 0px 32px;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+
+.computer-content {
+    text-align: center;
+}
+
+.computer-content p {
+    font-size: 16px;
+    line-height: 26px;
+    letter-spacing: 0.12px;
+}
+
+.image-computer {
+
+    object-fit: contain;
+    width: 100%;
+}
+
+/*******  clipboard-section  ******/
+
+.clipboard-wrapper {
+    padding-top: 186px;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.clipboard-content {
+    display: flex;
+    flex-wrap: wrap;
+    text-align: center;
+    width: 80%;
+}
+
+
+.clipboard-content p {
+    font-size: 1.125rem;
+}  
+
+.image-devices {
+
+    object-fit: contain;
+    width: 90%;
+}
+
+/*******  supercharge-section  ********/
+
+.supercharge-wrapper {
+    padding-top: 130px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.content {
+    width: 80%;
+}
+
+
+.content p {
+    font-size: 1.125em;
+    text-align: center;
+}
+
+/*******  tools-container  *******/
+
+.tools-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.create,
+.snippets,
+.preview {
+    width: 85%;
+    text-align: center;
+}
+
+/*******  logo-section  *********/
+
+.logo-wrapper {
+    padding-top: 131px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.sub-logo {
+    display: flex;
+    gap: 57px;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.logo-vector-graphics {
+    width: 105px;
+    height: 25px;
+}
+
+/*****  sub-header-section  *******/
+
+.sub-header-wrapper {
+    margin-top: 170px;
+    display: flex;
+    flex-direction: column;
+   
+}
+
+.sub-body {
+    display: flex;
+    justify-content: center;
+ 
+}
+
+.sub-body h2 {
+    text-align: center;
+    font-size: 2.25rem;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/********  media-query  *******/
+
+@media screen and (min-width:768px) {
+
+    body {
+        margin: 0;
+    }
+
+    .header {
+        margin: 128px 355px 0px 354px;
+        display: flex;
+        flex-direction: row;
+    }
+
+    .btns {
+        display: flex;
+        flex-wrap: wrap;
+        flex-direction: row;
+    }
+
+    .btn-1,
+    .btn-2{
+        width: 227px;
+    }
+
+
+    .header-body {
+        text-align: center;
+
+    }
+
+    .header-body h1 {
+        font-size: 2.875em;
+    }
+
+    .header-body p {
+        font-size: 1.25em;
+    }
+
+    /*******  keep-track  *******/
+
+    .keep-track-wrapper {
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+    }
+
+    .track-body {
+        display: flex;
+        flex-wrap: wrap;
+        width: 50%;
+        justify-content: center;
+    }
+
+    .track-body h2 {
+        font-size: 2.25em;
+    }
+
+    .track-body p {
+        font-size: 1.125em;
+    }
+
+    /********  computer-section *******/
+
+    .computer-wrapper {
+        padding-right: 110px;
+        display: flex;
+        gap: 110px;
+        flex-direction: row;
+    }
+
+    .computer-content {
+        text-align: left;
+    }
+
+    .computer-content h3 {
+        font-size: 1.5em;
+    }
+
+    .computer-content p {
+        font-size: 1em;
+        width: 90%;
+    }
+
+    .image-computer {
+        position: relative;
+        object-fit: contain;
+        right: 62px;
+    }
+
+    /*******  clipboard-section  ******/
+
+    .clipboard-wrapper {
+        display: flex;
+        justify-content: center;
+        flex-wrap: wrap;
+        flex-direction:row ;
+    }
+
+    .clipboard-content {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        width: 45%;
+        padding-bottom: 111px;
+    }
+
+    .clipboard-content h2 {
+        font-size: 2em;
+    }
+
+    .clipboard-content p {
+        font-size: 1.125em;
+    }
+
+    .image-2 {
+        margin: 0px 167px  ;
+        width: 80%;
+    }
+
+    /******  super-charge  ********/
+
+    .supercharge-wrapper {
+        display: flex;
+    }
+
+    /******  tools-comtainer  ******/
+
+    .tools-container {
+        display: flex;
+        justify-content: center;
+        flex-direction: row;
+        gap: 30px;
+    }
+
+    .create,
+    .snippets,
+    .preview {
+        text-align: center;
+        width: 25%;
+    }
+
+    .create p,
+    .snippets p,
+    .preview p {
+        font-size: 1em;
+    }
+
+    /*******  logo-wrapper  ******/
+
+    .logo-wrapper {
+        display: flex;
+       
+    }
+
+    .sub-logo {
+        display: flex;
+        gap: 57px;
+        flex-wrap: wrap;
+        flex-direction: row;
+    }
+
+    .logo-microsoft {
+        height: 49px;
+    }
+
+    .logo-vector-graphics {
+        width: 125px;
+        height: 30px;
+    }
+
+
+    /*******  sub-header-section  *********/
+
+    .sub-header-wrapper {
+        margin-top: 161px;
+        display: flex;
+    }
+
+    .sub-body {
+        display: flex;
+        justify-content: center;
+    }
+
+}
+
+
