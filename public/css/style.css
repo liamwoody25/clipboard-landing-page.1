@@ -287,23 +287,24 @@ body {
 /********  footer-section  ********/
 
 .footer-container {
-    display: flex;
-    flex-wrap: wrap;
+   
+    
     margin-top: 170px;
     background-color: #9EABB2;
     height: 500px;
     text-align: center;
-    flex-direction: column;
-    gap: 20px;
-
     
-
+    gap: 20px;
+    
 }
 
-.nav-1,
-.nav-2{
+.nav-items{
+    display: flex;
+    flex-wrap: wrap;
     margin: 40px 0px 20px;
     list-style: none;
+    gap: 20px;
+    flex-direction: column;
 }
 
 
@@ -313,6 +314,15 @@ body {
     width: 55px;
     height: 55px;
 }
+
+
+.icons {
+    display: flex;
+    justify-content: center;
+    gap: 40px;
+}
+
+
 
 
 
@@ -528,7 +538,7 @@ body {
        
     }
 
-    .footer-body ul {
+    .nav-items {
         display: flex;
         flex-wrap: wrap;
         flex-direction: row;
