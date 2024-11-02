@@ -564,6 +564,10 @@ body {
     .icons {
         margin: 63px 165px 63px 0px ;
     }
+
+    .facebook:hover {
+        color:var(--main-color);
+    }
 }
 
 
