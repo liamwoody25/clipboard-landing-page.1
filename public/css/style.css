@@ -291,7 +291,6 @@ body {
     position: relative;
     z-index: 1;
     margin-top: 170px;
-    opacity: 0.4;
     background-color: #9EABB2;
     height: 500px;
     text-align: center;
@@ -547,6 +546,11 @@ body {
         flex-wrap: wrap;
         flex-direction: row;
         justify-content: space-between;
+    }
+
+    .footer-logo {
+        position: relative;
+        left: 50px;
     }
 
     .icons {
