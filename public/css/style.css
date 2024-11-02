@@ -287,24 +287,30 @@ body {
 /********  footer-section  ********/
 
 .footer-container {
-   
-    
+    position: relative;
+    z-index: 2;
+    justify-content: space-evenly;
     margin-top: 170px;
+    opacity: 0.4;
     background-color: #9EABB2;
     height: 500px;
     text-align: center;
-    
     gap: 20px;
     
 }
 
-.nav-items{
+.nav-items {
     display: flex;
     flex-wrap: wrap;
-    margin: 40px 0px 20px;
+    align-items: center;
+    margin: 0px 0px 20px;
     list-style: none;
     gap: 20px;
     flex-direction: column;
+}
+
+.nav-items a {
+
 }
 
 
@@ -317,6 +323,7 @@ body {
 
 
 .icons {
+    margin-top: 50px;
     display: flex;
     justify-content: center;
     gap: 40px;
@@ -531,6 +538,7 @@ body {
     /********  footer-section  *******/
 
     .footer-container {
+       
         height: 150px;
         display: flex;
         align-items: center;
@@ -539,6 +547,7 @@ body {
     }
 
     .nav-items {
+       align-items: center;
         display: flex;
         flex-wrap: wrap;
         flex-direction: row;
