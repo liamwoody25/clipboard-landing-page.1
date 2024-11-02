@@ -49,7 +49,10 @@ p {
  .text-styling {
     text-decoration: none;
     color:var(--hd-color);
-   
+}
+
+.text-styling:hover {
+    color: var(--main-color);
 }
 
 .btns {
@@ -62,6 +65,7 @@ p {
 
 .btn-1:hover{
     opacity: 0.5;
+
 }
 .btn-2:hover {
     opacity: 0.5;
@@ -324,6 +328,10 @@ body {
     gap: 40px;
 }
 
+.facebook{
+    height: 120px;
+}
+
 
 
 
@@ -554,7 +562,7 @@ body {
     }
 
     .icons {
-        margin: 63px 0px 63px 0px ;
+        margin: 63px 165px 63px 0px ;
     }
 }
 
