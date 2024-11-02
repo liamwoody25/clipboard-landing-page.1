@@ -104,7 +104,7 @@ p {
 /******* body  *******/
 
 body {
-    background-image: url('/public/assets/images/bg-header-desktop.png');
+    background-image: url('./public/assets/images/bg-header-desktop.png');
     background-repeat: no-repeat;
     margin: 0;
 }
