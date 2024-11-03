@@ -293,7 +293,8 @@ body {
 .footer-container {
     justify-content: space-evenly;
     position: relative;
-    z-index: 1;
+   
+    opacity: 0.6;
     margin-top: 170px;
     background-color: #9EABB2;
     height: 500px;
@@ -302,7 +303,14 @@ body {
     
 }
 
+.nav-items {
+    text-align: left;
+    position: relative;
+}
+
+
 .nav-items ul{
+    z-index: 1;
     padding-right: 40px;
     display: flex;
     flex-wrap: wrap;
@@ -550,13 +558,16 @@ body {
     }
 
     .nav-items {
+        padding: 39px 0px 39px;
         display: flex;
-        flex-wrap: wrap;
-        flex-direction: row;
-        justify-content: space-between;
+    }
+
+    .nav-items ul {
+        align-items:start;
     }
 
     .footer-logo {
+        padding: 44px 0px 51px;
         position: relative;
         left: 50px;
     }
