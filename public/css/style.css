@@ -332,13 +332,28 @@ body {
 .icons {
     margin-top: 50px;
     display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
     justify-content: center;
     gap: 40px;
 }
 
-.facebook{
-    height: 120px;
+.facebook a,
+.twitter a,
+.instagram a{
+    font-size: 24px;
+    color: var(--hd-color);
+    
 }
+
+
+.facebook a:hover,
+.twitter a:hover,
+.instagram a:hover{
+    color: var(--main-color);
+    
+}
+
 
 
 
@@ -549,7 +564,6 @@ body {
     /********  footer-section  *******/
 
     .footer-container {
-       
         height: 150px;
         display: flex;
         align-items: center;
@@ -573,11 +587,14 @@ body {
     }
 
     .icons {
+        display: flex;
+        gap: 20px;
         margin: 63px 165px 63px 0px ;
     }
 
-    .facebook:hover {
-        color:var(--main-color);
+   
+    .icon-facebook:hover {
+        color: #26BAA4;
     }
 }
 
