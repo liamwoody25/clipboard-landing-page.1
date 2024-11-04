@@ -293,8 +293,7 @@ body {
 .footer-container {
     justify-content: space-evenly;
     position: relative;
-   
-    opacity: 0.6;
+    opacity: 0.7;
     margin-top: 170px;
     background-color: #9EABB2;
     height: 500px;
